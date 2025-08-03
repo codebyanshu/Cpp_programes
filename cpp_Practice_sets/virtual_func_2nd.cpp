@@ -12,10 +12,10 @@ public:
         title = s;
         rating = r;
     }
-    virtual void display(void)
-    {
-        cout << "random text";
-    }
+    virtual void display() = 0;
+//     {
+//         cout << "random text";
+//     }
 };
 class carryVideo : public carry
 {
