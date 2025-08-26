@@ -26,6 +26,7 @@ int main()
     Derived Derived_obj;
     Base_pointer = &Derived_obj;
     Base_pointer->display();
+    // make some changes
 
     return 0;
 }
